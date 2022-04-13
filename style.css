@@ -1,0 +1,414 @@
+body{
+    margin:0;
+    font-family: Eurostile;
+    font-size:17px;
+    color:#f7f7f7;
+    line-height:1.6;
+    text-transform: uppercase;
+    font-weight:400;
+}
+
+/* LOGO */
+
+#logo{
+  color: #003cff;
+  font-size: x-large;
+}
+
+/* TEXTO DE BEM VINDA */
+#showcase{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-tecnologia-abstracta-negro-degradado_23-2149213767.jpg?w=740);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+}
+
+#showcase h1{
+    font-size:50px;
+    line-height:1.2;
+}
+
+#showcase p{
+    font-size:20px;
+}
+
+
+/* CELULARES */
+#section-a{
+    padding:20px;
+    background:#adc0ff;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    font-weight:bolder
+}
+
+#text2{
+  text-shadow: 1px 1px 1px rgb(0, 140, 255);
+}
+
+
+/* NOTEBOOKS */
+#section-b{
+    padding:20px;
+    background:#adc0ff;
+    color: black;
+    text-align:center;
+    font-weight: bolder;
+}
+
+#text3{
+  text-shadow: 1px 1px 1px rgb(0, 140, 255);
+}
+
+/* NAVBAR */
+nav
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: #ffffff5b;
+	box-shadow: 2px 2px 12px rgba(0, 113, 179, 0.74);
+	padding: 0px 5%;
+
+}
+
+nav{
+  position: sticky;
+}
+
+
+ul
+{
+	list-style: none;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+
+nav ul
+{
+	display: flex;
+}
+
+nav ul li a
+{
+	margin: 30px;
+	font-family: Eurostile;
+	color: #030303;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.celular{
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+}
+
+.celular:hover{
+  background-color: #fff;
+  padding: 4px 4px;
+  color: #001d7eb4;
+  border-radius: 2px;
+}
+
+.notebook{
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+}
+
+.notebook:hover{
+  background-color: #fff;
+  padding: 4px 4px;
+  color: #001d7eb4;
+  border-radius: 2px;
+}
+
+.index{
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+}
+
+.index:hover{
+  background-color: #fff;
+  padding: 4px 4px;
+  color: #001d7eb4;
+  border-radius: 2px;
+}
+
+
+/* LISTA DE NOTEBOOKS */
+
+
+#preço6{
+  color: #030303;
+  text-align: center;
+  font-size: 35px;
+}
+.produto6{
+  text-align: center;
+  color: #030303;  
+}
+#pc1{
+    float: left;
+    background-color: #c9c9c977;
+    width:260px;
+    height:350px;
+    margin: 65px 70px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 255, 0.466);
+}
+
+#preço5{
+  color: #030303;
+  text-align: center;
+  font-size: 35px;
+}
+.produto5{
+    text-align: center;
+    color: #030303;  
+}
+#pc2{
+    float: left;
+    background-color: #c9c9c977;
+    width:260px;
+    height:350px;
+    margin: 65px 70px;
+    border-radius: 5px;
+    top: 20px;
+    border: 2px solid rgba(0, 0, 255, 0.466);
+}
+
+#preço4{
+  color: #030303;
+  text-align: center;
+  font-size: 35px;
+}
+.produto4{
+  width: auto;
+  height: 200px;
+  margin: 10px 30px 20px 30px ;
+}
+#pc3{
+  float: left;
+  background-color: #c9c9c977;
+  width:260px;
+  height:350px;
+  margin: 65px 70px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 255, 0.466);
+}
+
+#preço3{
+  color: #030303;
+  text-align: center;
+  font-size: 35px;
+}
+.produto3{
+  width: auto;
+  height: 200px;
+  margin: 10px 30px 20px 30px ;
+}
+#pc4{
+  float: left;
+  background-color: #c9c9c977;
+  width:260px;
+  height:350px;
+  margin: 65px 70px;
+  border-radius: 5px;
+  top: 20px;
+  border: 2px solid rgba(0, 0, 255, 0.466);
+}
+
+#preço2{
+  color: #030303;
+  text-align: center;
+  font-size: 35px;
+}
+.produto2{
+  width: auto;
+  height: 210px;
+  margin: 5px 5px 20px 25px;
+}
+#pc5{
+  float: left;
+  background-color: #c9c9c977;
+  width:260px;
+  height:350px;
+  margin: 65px 70px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 255, 0.466);
+}
+
+#preço1{
+  color: #030303;
+  text-align: center;
+  font-size: 35px;
+}
+.produto1{
+  width: auto;
+  height: 150px;
+  margin: 30px 20px 5px 30px;
+}
+#pc6{
+  float: left;
+  background-color: #c9c9c977;
+  width:260px;
+  height:350px;
+  margin: 65px 70px;
+  border-radius: 5px;
+  top: 20px;
+  border: 2px solid rgba(0, 0, 255, 0.466);
+}
+
+.text1{
+    text-align: center;
+    color:#05299e;
+}
+/* CELULARES */
+
+#preço7{
+  color: #030303;
+  text-align: center;
+  font-size: 35px;
+}
+.produto7{
+  text-align: center;
+  color: #030303; 
+  width: auto;
+  height: 200px;
+  margin: 30px 20px 5px 30px 
+}
+#celular7{
+    float: left;
+    background-color: #c9c9c977;
+    width:260px;
+    height:350px;
+    margin: 65px 70px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 255, 0.466);
+}
+
+#preço8{
+  color: #030303;
+  text-align: center;
+  font-size: 35px;
+}
+.produto8{
+    text-align: center;
+    color: #030303; 
+    width: auto;
+    height: 200px;
+    margin: 30px 20px 15px 30px 
+}
+#celular8{
+    float: left;
+    background-color: #c9c9c977;
+    width:260px;
+    height:350px;
+    margin: 65px 70px;
+    border-radius: 5px;
+    top: 20px;
+    border: 2px solid rgba(0, 0, 255, 0.466);
+}
+
+#preço9{
+  color: #030303;
+  text-align: center;
+  font-size: 35px;
+}
+.produto9{
+  width: auto;
+  height: 200px;
+  margin: 10px 30px 20px 30px ;
+}
+#celular9{
+  float: left;
+  background-color: #c9c9c977;
+  width:260px;
+  height:350px;
+  margin: 65px 70px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 255, 0.466);
+}
+
+#preço10{
+  color: #030303;
+  text-align: center;
+  font-size: 35px;
+}
+.produto10{
+  width: auto;
+  height: 196px;
+  margin: 10px 25px 20px 25px ;
+}
+#celular10{
+  float: left;
+  background-color: #c9c9c977;
+  width:260px;
+  height:350px;
+  margin: 65px 70px;
+  border-radius: 5px;
+  top: 20px;
+  border: 2px solid rgba(0, 0, 255, 0.466);
+}
+
+#preço11{
+  color: #030303;
+  text-align: center;
+  font-size: 35px;
+}
+.produto11{
+  width: auto;
+  height: 210px;
+  margin: 5px 5px 20px 25px;
+}
+#celular11{
+  float: left;
+  background-color: #c9c9c977;
+  width:260px;
+  height:350px;
+  margin: 65px 70px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 255, 0.466);
+}
+
+.text1{
+    text-align: center;
+    color:#05299e;
+}
+
+
+
+/* PARTE DE DESENVOLVIMENTO */
+.desenvolvido{
+     color: #ff0000;
+     font-family: Eurostile;
+     text-align: center;
+     font-size: 8px;
+}
+
+/* TEXTO DO MEIO NO INDEX */
+#ZinkTech{
+      color: #003cff;
+}
+
+#ZinkTech{
+  background-color: #ffffff;
+  margin: 15px 15px;
+}
+
+/* TEXTO EXPLICANDO SOBRE OS NOTEBOOKS */
+#explicativo1{
+   text-align: center;
+   color: #003cff;
+}
